@@ -1,19 +1,69 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
   <title>Lyonnister</title>
 
   <meta name="description" content="Hear Me Code!">
-
   <meta name="author" content="Jon Snow">
+  <meta property="og:logo" content="assets/img/lyonnister_min.png">
 
-  <meta property="og:logo" content="assets/img/lyonnister_min.png"> 
+  <style>
+    .container {
+      width: 95%;
+      height: 93vh;
+      border-style: solid;
+      border-color: #d4bd92;
+      border-radius: 13px;
+      margin: 2%;
+    }
+
+    .fully-centered {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 5% 26% 5% 26%;
+    }
+
+    img {
+      max-height: 40%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  </style>
+
+  <style type="text/css">
+    @font-face {
+      font-family: "loew-light";
+      src: url("https://dafonttop.com/wp-data/l/606/8606/file/Loew-Light.otf") format("woff"),
+        url("https://dafonttop.com/wp-data/l/606/8606/file/Loew-Light.otf") format("opentype"),
+        url("https://dafonttop.com/wp-data/l/606/8606/file/Loew-Light.otf") format("truetype");
+    }
+
+    a {
+      text-decoration: none;
+      color: #d4bd92;
+      font-family: "loew-light";
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+  </style>
 </head>
 
 <body style="background-color: #1d1d1b">
-  <img src="assets/img/lyonnister.png" alt="Lyonnister" style="max-height: 500px; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;" />
+  <div class="container">
+    <div class="fully-centered">
+      <img src="assets/img/lyonnister.png" alt="Lyonnister" class="" />
+      <a href="https://tech.lyonnister.com">- Tech -</a>
+      <a href="https://design.lyonnister.com">- Design -</a>
+    </div>
+
+  </div>
 </body>
+
 </html>
